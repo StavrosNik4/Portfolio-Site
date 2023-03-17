@@ -1,0 +1,81 @@
+/* Add your global styles here */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Add your header styles here */
+.header {
+    background-image: url("../images/header-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+/* Add your about styles here */
+.about {
+    padding: 5rem 0;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.about img {
+    width: 100%;
+    height: auto;
+}
+
+/* Add your projects styles here */
+.projects {
+    padding: 5rem 0;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.projects .card {
+    margin-bottom: 2rem;
+}
+
+.projects .card-img-top {
+    height: 15rem;
+    object-fit: cover;
+}
+
+/* Add your contact styles here */
+.contact {
+    padding: 5rem 0;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Add your footer styles here */
+.footer {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
