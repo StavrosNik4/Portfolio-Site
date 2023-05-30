@@ -120,7 +120,12 @@ nav .icon {
 
 /* Add your about styles here */
 .about {
-    padding: 5rem 0;
+    max-width: 800px;
+    background-color: #3D5EAF;
+    padding: 30px;
+    border-radius: 5px;
+    margin: 40px auto 0;
+    color: white;
 }
 
 .about h2 {
@@ -148,6 +153,14 @@ nav .icon {
     margin-bottom: 2rem;
 }
 
+.projects h2 span {
+    background-color: #8a1f6d;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+
+}
+
 .projects .card {
     margin-bottom: 2rem;
     background-color: #331046;  /*#5F3581*/
@@ -170,6 +183,14 @@ nav .icon {
 .contact h2 {
     text-align: center;
     margin-bottom: 2rem;
+}
+
+.contact h2 span {
+    background-color: #8a1f6d;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+
 }
 
 form {
@@ -221,7 +242,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: rgba(255, 0, 255, 0.79);
+    background-color: #8a1f6d;
 }
 
 /* Add your footer styles here */
